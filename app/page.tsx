@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 import {creditBenefits, features, testimonials} from "@/lib/data";
+import Pricing from "@/components/pricing";
 
 export default function Home() {
   return (
@@ -114,6 +115,8 @@ export default function Home() {
           </div>
           <div>
             {/* Pricing Table */}
+            <Pricing />
+
             <Card className="mt-12 bg-muted/20 border-emerald-900/30">
               <CardHeader>
                 <CardTitle className="text-xl font-semibold text-white flex items-center">
